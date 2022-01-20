@@ -1,0 +1,138 @@
+
+
+/* TableDataBox Styles */
+.c__tableDataBox {
+    width: 100%;
+    height: 100%;
+}
+
+.c__tableDataBox .table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    font-size: 14px;
+    border-collapse: separate;
+    border-spacing: 0 1px;
+    
+    background-color: #fff;
+}
+
+
+.c__tableDataBox .table thead {
+    width: 100%;
+    text-align: left;
+    background-color: #F4F2F2;
+}
+
+.c__tableDataBox .table thead th {
+    opacity: 0.9;
+    padding: 12px 14px;
+}
+
+.c__tableDataBox .table tbody {
+    text-align: left;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.c__tableDataBox .table tbody tr td{
+    padding: 12px 14px;
+}
+
+.c__tableDataBox .table tbody tr:nth-child(even) {
+    background-color: #FAF9F9;
+  }
+
+
+/***************************/
+
+
+/* Loader Styles */
+
+.c__loadingTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;    
+}
+
+.c__loadingTable .spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, var(--color-primary));
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+    animation: s3 1s infinite linear;
+}
+
+@keyframes s3 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.c__loadingTable span {
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--color-text-secundary);
+}
+
+/*****************/
+
+/* Button Style */
+
+.container-more-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.container-more-controls .button {
+    height: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: all .20s ease-in-out;
+}
+
+.container-more-controls .button.primary {
+    background-color: var(--color-secundary);
+    font-weight: 500;
+    color: #fff;
+}
+
+.container-more-controls .button.primary:hover {
+    background-color: var(--color-secundary-light);
+}
+
+.container-more-controls .button.secundary {
+    background-color: #fff;
+    font-weight: 500;
+    color: var(--color-secundary);
+    border: 1px solid var(--color-secundary);
+}
+
+.container-more-controls .button.secundary:hover {
+    background-color: var(--color-secundary);
+    color: #fff;
+}
+
+
+
+/****************/
+
+/* Select Styles */
+
+.select-options-table {
+    font-size: 14px;
+}
+
+
+/****************/

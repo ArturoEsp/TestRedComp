@@ -1,0 +1,14 @@
+.list-items{
+}
+
+.list-items ul button {
+    font-size: 13px;
+    background-color: transparent;
+    padding: 4px 6px;
+    transition: all .20s ease-in-out;
+}
+
+.list-items ul button:hover {
+    background-color: rgb(219, 216, 216);
+    cursor: pointer;
+}

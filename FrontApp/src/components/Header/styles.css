@@ -1,0 +1,14 @@
+.c__header {
+    background-color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.c__header .title span{
+    color: #fff;
+    font-size: 1.2rem;
+}

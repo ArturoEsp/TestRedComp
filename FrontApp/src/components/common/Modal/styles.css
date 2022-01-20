@@ -1,0 +1,67 @@
+/* Styles Popup Modal Custom */
+
+.modal__custom-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.c__modal {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.c__modal.normal {
+    width: 620px;
+}
+
+.c__modal.larger {
+    width: 890px;
+}
+
+.c__modal .header {
+   display: flex;
+   flex-direction: row;
+   border-bottom: 1px solid rgb(223, 221, 221);
+   padding: 18px 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.c__modal .header .title {
+    width: 100%;
+}
+
+.c__modal .header .title h2 {
+    font-size: 1rem;
+    color: var(--color-primary);
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.c__modal .header .button-close button{
+    background-color: transparent;
+    font-size: 1.4rem;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition: all .20s ease-in-out;
+    opacity: 0.8;
+}
+
+.c__modal .header .button-close button:hover{
+    cursor: pointer;
+    background-color: rgb(212, 209, 209);
+    opacity: 1;
+}
+
+.c__modal .content {
+    padding: 20px 28px;
+}
